@@ -1,5 +1,6 @@
 import type {NextApiRequest, NextApiResponse} from "next";
 import {prisma} from "../../prisma";
+import * as requestIp from "request-ip";
 
 const getDonator = async (req: NextApiRequest, res: NextApiResponse) => {
 	// check if user is already registered with a cookie
@@ -15,7 +16,7 @@ const getDonator = async (req: NextApiRequest, res: NextApiResponse) => {
 	}
 
 	// check if user is already registered by ip
-	const ip = req.connection.remoteAddress;
+	const ip = requestIp.getClientIp(req);
 	let donator = await prisma.donator.findFirst({
 		where: {
 			ipAddr: ip
