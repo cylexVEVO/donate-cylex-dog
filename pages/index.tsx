@@ -70,9 +70,28 @@ const Index = () => {
 	}
 
 	return (
-		<div className={"text-white/90 flex flex-col items-center pt-24 relative"}>
+		<div className={"text-white/90 flex flex-col items-center pt-24 relative pb-4"}>
 			<div className={"fixed left-0 right-0 top-0 bottom-0 bg-gradient-to-b from-[#141b38] to-[#0e0a16] z-0"}/>
 			<div className={"z-10 max-w-4xl"}>
+				<div className={"border-white border py-4 px-6 rounded-xl mb-8 text-2xl"}>
+					<div className={"text-white font-medium"}>
+						Total donation amount
+					</div>
+					<div className={"flex justify-between"}>
+						{getDollarAmount(globalDonationAmount)} /
+						$250.00 {globalDonationAmount === 25000 ? "🎉🥳🎉" : ""}
+						<button
+							className={"transition ease-in-out duration-200 text-lg font-medium text-white/50 hover:text-white"}
+							onClick={getGlobalDonationAmount}>
+							Refresh
+						</button>
+					</div>
+					<div className={"bg-white rounded-full w-full h-2 my-2 relative"}>
+						<div
+							className={"transition-all ease-in-out duration-500 bg-orange-600 rounded-full h-2 absolute left-0 top-0 bottom-0"}
+							style={{right: `${100 - ((globalDonationAmount / 25000) * 100)}%`}}/>
+					</div>
+				</div>
 				<div className={"text-white text-5xl font-extrabold mb-4"}>
 					Happy pride month! 🌈
 				</div>
@@ -114,22 +133,6 @@ const Index = () => {
 							style={{right: `${100 - ((clicks / 10) * 100)}%`}}/>
 						Donate $0.01
 					</button>
-					<div className={"text-2xl"}>
-						<div className={"flex justify-between"}>
-							Total donation {getDollarAmount(globalDonationAmount)} /
-							$250.00 {globalDonationAmount === 25000 ? "🎉🥳🎉" : ""}
-							<button
-								className={"transition ease-in-out duration-200 text-lg font-medium text-white/50 hover:text-white"}
-								onClick={getGlobalDonationAmount}>
-								Refresh
-							</button>
-						</div>
-						<div className={"bg-white rounded-full w-full h-2 my-2 relative"}>
-							<div
-								className={"transition-all ease-in-out duration-500 bg-orange-600 rounded-full h-2 absolute left-0 top-0 bottom-0"}
-								style={{right: `${100 - ((globalDonationAmount / 25000) * 100)}%`}}/>
-						</div>
-					</div>
 				</div>
 
 				<div className={"text-2xl font-medium mb-4"}>
