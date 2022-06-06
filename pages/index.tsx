@@ -73,7 +73,7 @@ const Index = () => {
 		<div className={"text-white/90 flex flex-col items-center pt-24 relative pb-4"}>
 			<div className={"fixed left-0 right-0 top-0 bottom-0 bg-gradient-to-b from-[#141b38] to-[#0e0a16] z-0"}/>
 			<div className={"z-10 max-w-4xl"}>
-				<div className={"border-white border py-4 px-6 rounded-xl mb-8 text-2xl"}>
+				<div className={"py-4 px-6 rounded-xl mb-8 text-2xl bg-gradient-to-br from-[#0b0d1470] to-[#07070c70]"}>
 					<div className={"text-white font-medium"}>
 						Total donation amount
 					</div>
