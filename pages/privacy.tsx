@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Privacy = () => {
 	return (
-		<div className={"text-white/90 flex flex-col items-center pt-24 relative"}>
+		<div className={"text-white/90 flex flex-col items-center pt-24 relative pb-4"}>
 			<div className={"fixed left-0 right-0 top-0 bottom-0 bg-gradient-to-b from-[#141b38] to-[#0e0a16] z-0"}/>
 			<div className={"z-10 max-w-4xl"}>
 				<div className={"text-white text-5xl font-extrabold mb-4"}>
