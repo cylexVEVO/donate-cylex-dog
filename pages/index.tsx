@@ -14,7 +14,7 @@ const Index = () => {
 						Thank you all for participating! We only got $91.05 out of the $250, which is honestly less than I expected but I'm still super happy about how this turned out.
 					</div>
 					<div className={"mb-4"}>
-						As promised, all user data has been wiped, and the money will be donated very shortly (I'll put a receipt up here for proof). Thanks for being a part of this stupid ass thing I made!
+						As promised, all user data has been wiped, and the money has been donated (receipt below). Thanks for being a part of this stupid ass thing I made!
 					</div>
 				</div>
 
