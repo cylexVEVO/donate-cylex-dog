@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d6fe655-3b86-4c29-b768-ed98e496e78c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/receipt.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/donate.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/donationStats.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +63,9 @@
       <recent name="C:\Users\cylex\WebstormProjects\donate.cylex.dog\pages\api" />
       <recent name="C:\Users\cylex\WebstormProjects\donate.cylex.dog\pages" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cylex\Documents\GitHub\donate-cylex-dog\public" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,7 +80,7 @@
       <workItem from="1654472500252" duration="661000" />
       <workItem from="1654552417392" duration="183000" />
       <workItem from="1654570367508" duration="18000" />
-      <workItem from="1656644444530" duration="367000" />
+      <workItem from="1656644444530" duration="1391000" />
     </task>
     <servers />
   </component>

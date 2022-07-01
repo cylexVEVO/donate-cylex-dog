@@ -18,6 +18,8 @@ const Index = () => {
 					</div>
 				</div>
 
+				<img src={"/receipt.png"} className={"rounded-lg mb-4"}/>
+
 				<div className={"text-2xl font-medium mb-4"}>
 					Wanna contribute some more?<br/>
 					<a href={"https://give.thetrevorproject.org/give/407873/#!/donation/checkout"} className={"flex items-center transition ease-in-out duration-200 text-lg font-medium text-white/50 hover:text-white"}>
